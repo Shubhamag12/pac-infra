@@ -13,6 +13,7 @@ sync-theme: clean
 	jar xf keycloak-themes.jar
 	rm -rf META-INF
 	rm -rf keycloak-themes.jar
+	rm -rf base keycloak keycloak.v2
 	cp -r pac/ theme/pac
 
 .PHONY: clean
